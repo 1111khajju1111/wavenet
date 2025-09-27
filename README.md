@@ -1,1 +1,7 @@
-# wavenet
+WaveNet is a comprehensive cross-platform application designed to revolutionize ocean hazard monitoring through crowdsourced data collection and AI-powered social media analysis. The application enables citizens to submit geotagged reports, photos, and videos of observed ocean hazards while integrating real-time social media feeds from Twitter, Facebook, and YouTube for enhanced threat detection.
+
+Built using Flutter for cross-platform compatibility, the application features a Node.js/Express backend with MongoDB for data storage and IndexedDB for offline capabilities. The system incorporates Google Gemini API from Hugging Face for advanced Natural Language Processing to classify hazard-related content from social media sources. Interactive visualization is powered by D3.js, with Mapbox integration for efficient map caching and Leaflet.js for geospatial data rendering.
+
+Key functionalities include role-based access control for citizens, officials, and analysts, dynamic hotspot generation based on report density, multilingual support for regional accessibility, and offline data collection capabilities for remote coastal areas. The platform provides emergency response agencies with comprehensive situational awareness through real-time dashboards and NLP-driven sentiment analysis of hazard events.
+
+WaveNet addresses the critical need for early ocean hazard detection by creating an integrated software platform that combines citizen reporting with intelligent social media monitoring. The application serves as a vital tool for emergency response agencies to understand the scale, urgency, and public sentiment surrounding hazard events.
